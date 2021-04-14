@@ -86,7 +86,8 @@
      
      events_dates.csv - таблица с датами в которые была активность пользователя на  
      курсе, определенная для events_train.csv и events_data_test.csv
-     submissions_dates.csv - таблица с датами в которые была активность пользователя      на курсе, определенная для submissions_train.csv и submission_data_test.csv
+     submissions_dates.csv - таблица с датами в которые была активность пользователя 
+     на курсе, определенная для submissions_train.csv и submission_data_test.csv
      koef_week.csv - таблица активностей пользователей для номера недели
      koef_weekday.csv - таблица активностей пользователей для номера дня недели
      koef_day.csv - таблица активностей пользователей для номера дня месяца
