@@ -56,16 +56,25 @@
 
 ### Папка notebooks содержит:
 
-    RF_model.ipynb - решение с использованием алгоритма Random Forest, основанное на датасете из 62 признаков созданных "вручную" без использования автоматической генерации. ROC_AUC = 0.89
-    activity_weekday_week_mouthday.ipynb - определение активность для дня недели, недели года, дня месяца
-    activity_features.ipynb - генерация признаков, основанных на активности для дня недели, недели года, дня месяца    
-    order_days_based_target.ipynb - генерация признаков количества и распределения дней в течении первых 2 суток на курсе    
-    EVENTS_features.ipynb - генерация признаков для events_train.csv и events_data_test.csv    
-    SUBMISSIONS_features.ipynb - генерация признаков для submissions_train.csv и submission_data_test.csv    
-    step_id_for_events.ipynb - определение порядка степов на курсе для events_train.csv и events_data_test.csv
-    step_id_for_submissions.ipynb - определение порядка степов на курсе для submissions_train.csv и submission_data_test.csv    
-    time_of_day_features.ipynb - генерация признаков, основанных на времени дня, в которое были действия на курсе   
-    data_diff_SUBMISSIONS_EVENTS.ipynb - генерация признаков для разности дат между events_train и submissions_train    
+    RF_model.ipynb - решение с использованием алгоритма Random Forest, основанное  
+    на датасете из 62 признаков созданных "вручную" без использования автоматической     генерации. ROC_AUC = 0.89
+    activity_weekday_week_mouthday.ipynb - определение активность для дня недели,  
+    недели года, дня месяца
+    activity_features.ipynb - генерация признаков, основанных на активности для дня     недели, недели года, дня месяца    
+    order_days_based_target.ipynb - генерация признаков количества и распределения  
+    дней в течении первых 2 суток на курсе    
+    EVENTS_features.ipynb - генерация признаков для events_train.csv и  
+    events_data_test.csv    
+    SUBMISSIONS_features.ipynb - генерация признаков для submissions_train.csv и  
+    submission_data_test.csv    
+    step_id_for_events.ipynb - определение порядка степов на курсе для  
+    events_train.csv и events_data_test.csv
+    step_id_for_submissions.ipynb - определение порядка степов на курсе для  
+    submissions_train.csv и submission_data_test.csv    
+    time_of_day_features.ipynb - генерация признаков, основанных на времени дня, в  
+    которое были действия на курсе   
+    data_diff_SUBMISSIONS_EVENTS.ipynb - генерация признаков для разности дат между 
+    events_train и submissions_train    
     target_features.ipynb - формирование таргета   
     ALL_features.ipynb - сводная таблица признаков
     
@@ -73,28 +82,43 @@
 
 ### Папка data содержит:
      
-     events_dates.csv - таблица с датами в которые была активность пользователя на курсе, определенная для events_train.csv и events_data_test.csv
-     submissions_dates.csv - таблица с датами в которые была активность пользователя на курсе, определенная для submissions_train.csv и submission_data_test.csv
+     events_dates.csv - таблица с датами в которые была активность пользователя на  
+     курсе, определенная для events_train.csv и events_data_test.csv
+     submissions_dates.csv - таблица с датами в которые была активность пользователя      на курсе, определенная для submissions_train.csv и submission_data_test.csv
      koef_week.csv - таблица активностей пользователей для номера недели
      koef_weekday.csv - таблица активностей пользователей для номера дня недели
      koef_day.csv - таблица активностей пользователей для номера дня месяца
-     week_weekday_day.zip - таблица признаков, расчитанных  на активности пользователей дня недели, недели, дня месяца
-     events_all_two_days.zip - выборка данных для 2-х дней из events_train.csv и events_data_test.csv
-     submissions_all_two_days.zip - выборка данных для 2-х дней из submissions_train.csv и submission_data_test.csv
-     days_feature_events_all.csv - таблица содержащая количество дней и их распределение в  events_train.csv и events_data_test.csv
-     days_feature_submissions_all.csv - таблица содержащая количество дней и их распределение в submissions_train.csv и submission_data_test.csv
+     week_weekday_day.zip - таблица признаков, расчитанных  на активности  
+     пользователей дня недели, недели, дня месяца
+     events_all_two_days.zip - выборка данных для 2-х дней из events_train.csv и  
+     events_data_test.csv
+     submissions_all_two_days.zip - выборка данных для 2-х дней из  
+     submissions_train.csv и submission_data_test.csv
+     days_feature_events_all.csv - таблица содержащая количество дней и их  
+     распределение в  events_train.csv и events_data_test.csv
+     days_feature_submissions_all.csv - таблица содержащая количество дней и их  
+     распределение в submissions_train.csv и submission_data_test.csv
      target_feature.csv - датасет целевой переменной
-     days_feature_target.csv - общая таблица количества дней и их распределения с учетом значений целевой переменной
-     ideal_steps_events_all.csv - нормальный порядок степов для events_train.csv и events_data_test.csv
-     feature_steps_events.zip - содержит признак последовательности прохождения степов пользователями
-     times_feature_events_all_NEW.csv - признаки распределения активности пользователей по времени суток, по часам
-     feature_data_events_22.zip - общая таблица признаков для events_train.csv и events_data_test.csv
-     ideal_steps_submissions_all.csv - нормальный порядок степов для submissions_train.csv и submission_data_test.csv
-     feature_data_submissions_16.zip - общая таблица признаков для submissions_train.csv и submission_data_test.csv
+     days_feature_target.csv - общая таблица количества дней и их распределения с  
+     учетом значений целевой переменной
+     ideal_steps_events_all.csv - нормальный порядок степов для events_train.csv и  
+     events_data_test.csv
+     feature_steps_events.zip - содержит признак последовательности прохождения  
+     степов пользователями
+     times_feature_events_all_NEW.csv - признаки распределения активности  
+     пользователей по времени суток, по часам
+     feature_data_events_22.zip - общая таблица признаков для events_train.csv и  
+     events_data_test.csv
+     ideal_steps_submissions_all.csv - нормальный порядок степов для  
+     submissions_train.csv и submission_data_test.csv
+     feature_data_submissions_16.zip - общая таблица признаков для  
+     submissions_train.csv и submission_data_test.csv
      users_count.csv - таблица пользователей, имеющих 198 passed и 76 correct
      events_all.zip - объединенная таблица events_train.csv и events_data_test.csv
-     ideal_steps_events_all.csv - нормальный порядок степов для events_train.csv и events_data_test.csv
-     daysdiff_ratio.csv - таблица признаков для разности дат между events_train и submissions_train
+     ideal_steps_events_all.csv - нормальный порядок степов для events_train.csv и  
+     events_data_test.csv
+     daysdiff_ratio.csv - таблица признаков для разности дат между events_train и  
+     submissions_train
      train_data_19234_62.zip - общая таблица признаков для обучения модели
      test_data_6184_62.zip - общая таблица признаков для формирования сабмита
      
